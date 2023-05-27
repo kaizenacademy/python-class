@@ -7,6 +7,10 @@ for num in numbers:
 
 print(f"Sum of all numbers: {total_sum}")
 
+for num in "numbers":
+    print(num)
+
+
 for num in range(1,11,1):
     total_sum += num
 
